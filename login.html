@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="Nav-bar">
+            <a class="logo" href="website.html">ZURI</a>
+            <ul class="Menu">
+                <li class="active"><a href="index.html">Registration</a> </li>
+                <li><a href="login.html">Login</a> </li>
+                <li><a href="Success.html">Success</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="Login" action="index.html" method="post">
+        <div class="Email flex">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="Password flex">
+            <label for="Password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="flex">
+            <button id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
